@@ -1,0 +1,12 @@
+.IntroRow {
+  background-color: white;
+  height: fit-content;
+}
+
+.IntroContentCol {
+  background-color: white;
+}
+
+.Mugshot {
+  width:200px;
+}
