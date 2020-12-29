@@ -10,3 +10,7 @@
 .Mugshot {
   width:200px;
 }
+
+.switchHell{
+  display: inline-flex;
+}
