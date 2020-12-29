@@ -1,8 +1,8 @@
 
 import React from 'react';
-import OnImage from './images/SwitchOn.png';
-import OffImage from './images/SwitchOff.png';
-import ClickSound from './audio/click.mp3';
+import OnImage from '../../images/SwitchOn.png';
+import OffImage from '../../images/SwitchOff.png';
+import ClickSound from '../../audio/click.mp3';
 import './ClickySwitch.css';
 
 class ClickySwitch extends React.Component{

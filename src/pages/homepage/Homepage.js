@@ -1,19 +1,22 @@
-import mugshot from './images/handsome_person.jpg';
+import mugshot from '../../images/handsome_person.jpg';
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
+import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
-import ClickySwitch from './ClickySwitch';
+import ClickySwitch from '../../components/clicky_switch/ClickySwitch';
 import './Homepage.css';
 
 function Homepage() {
   return (
+    <div>
+    <Navigator/>
     <Container>
     <Row className="justify-content-center IntroRow" gx={2}>
         <Col className="text-break IntroContentCol" sm={10}  >
             <h1>Welcome to Robot Salad!</h1>
             <p>This is my personal website, where i'm going to put all sortsa things! Mostly just showing off my work, but also fun experiments, gags and more. There's also a blog section if you want to keep up to date with the latest hijinks I've been up to. </p>
             <h3>cool, but who wrote this, exactly?</h3>
-            <p>Oh, <b>I'm so glad you asked.</b> I'm <b>André Luiz</b>, also known on the internet by the pseudonyms <b> BomberBeetle</b> (on <a href="https://github.com/BomberBeetle">GitHub</a>) and <b>xdre</b> (pretty much everywhere else). My pronouns are he/they (but I seriously doubt anyone is going to call me by "they" haha), and I come from São Paulo, Brazil.</p>
+            <p>Oh, <b>I'm so glad you asked.</b> I'm <b>André Luiz</b>, also known on the internet by the pseudonyms <b>BomberBeetle</b> (on <a href="https://github.com/BomberBeetle">GitHub</a>) and <b>xdre</b> (pretty much everywhere else). My pronouns are he/they (but I seriously doubt anyone is going to call me by "they" haha), and I come from São Paulo, Brazil.</p>
             <div className="text-center">
                 <img src={mugshot} className="rounded Mugshot" alt="The author."/>
                 <p><small>Whoa mama, who's this handsome devil?</small></p>
@@ -32,6 +35,7 @@ function Homepage() {
         </Col>
     </Row>
 </Container>
+</div>
   );
 }
 
