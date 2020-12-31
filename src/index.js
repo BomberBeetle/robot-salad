@@ -4,10 +4,12 @@ import './index.css';
 import Homepage from './pages/homepage/Homepage';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Routes from './routes';
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

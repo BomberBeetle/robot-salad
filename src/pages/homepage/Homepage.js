@@ -10,7 +10,7 @@ function Homepage() {
   return (
     <div>
     <Navigator/>
-    <Container>
+    <Container className="MainContainer">
     <Row className="justify-content-center IntroRow" gx={2}>
         <Col className="text-break IntroContentCol" sm={10}  >
             <h1>Welcome to Robot Salad!</h1>

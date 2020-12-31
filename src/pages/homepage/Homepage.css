@@ -14,3 +14,7 @@
 .switchHell{
   display: inline-flex;
 }
+
+.MainContainer{
+  margin-top: 25px;
+}
