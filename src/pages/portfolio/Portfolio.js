@@ -5,11 +5,6 @@ import Col from  'react-bootstrap/Col';
 
 import entries from './portfolio_entries';
 
-import Card from  'react-bootstrap/Card';
-import Badge from  'react-bootstrap/Badge';
-import Button from  'react-bootstrap/Button';
-import {RiGithubLine, RiFile2Line} from 'react-icons/ri/';
-
 import PortfolioEntry from '../../components/portfolio_entry/PortfolioEntry'
 
 function Portfolio(){
