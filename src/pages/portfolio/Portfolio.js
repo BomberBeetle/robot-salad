@@ -19,7 +19,7 @@ function Portfolio(){
             {
                 entries.map(entry=>{
                     return(
-                    <PortfolioEntry tags={entry.tags} title={entry.title} gh_source={entry.github_source} browse={entry.browse} img={entry.img}>
+                    <PortfolioEntry tags={entry.tags} title={entry.title} gh_source={entry.github_source} browse={entry.browse} latest_release={entry.latest_release} img={entry.img}>
                         {entry.content}
                     </PortfolioEntry>
                     )

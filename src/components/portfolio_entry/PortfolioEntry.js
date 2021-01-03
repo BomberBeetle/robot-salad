@@ -5,7 +5,7 @@ import './PortfolioEntry.css';
 import Card from  'react-bootstrap/Card';
 import Badge from  'react-bootstrap/Badge';
 import Button from  'react-bootstrap/Button';
-import {RiGithubLine, RiFile2Line} from 'react-icons/ri/';
+import {RiGithubLine, RiFile2Line, RiDownloadLine} from 'react-icons/ri/';
 
 class PortfolioEntry extends React.Component{
 
@@ -33,6 +33,11 @@ class PortfolioEntry extends React.Component{
             buttons.push(<span>{' '}</span>)
         }
 
+        if(this.props.latest_release){
+            buttons.push((<Button variant="success" href={this.props.latest_release} target="_blank" size="sm"><RiDownloadLine/> Latest Release</Button>))
+            buttons.push(<span>{' '}</span>)
+        }
+
         return buttons;
     }
 
@@ -46,7 +51,6 @@ class PortfolioEntry extends React.Component{
                     </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">
                         Tags: {this.renderTags()}
-                        {/*<Badge variant="success">Finished</Badge> <Badge variant="primary">HTML/CSS</Badge> <Badge variant="secondary">Languages</Badge>*/}
                     </Card.Subtitle>
                     <Card.Text>
                         {this.props.children}
@@ -54,12 +58,6 @@ class PortfolioEntry extends React.Component{
 
                     {
                         this.renderButtons()
-                    }
-                    {
-                        /*
-                    <Button variant="dark" target="_blank" href="https://github.com/BomberBeetle/rescool" size="sm"><RiGithubLine/>  Source Code</Button> {' '}
-                    <Button variant="primary" href="https://bomberbeetle.github.io/rescool/" target="_blank" size="sm"><RiFile2Line/> Browse</Button>
-                        */ 
                     }
                     </Card.Body>
                 {this.props.img?<Card.Img variant="bottom" src={this.props.img}/>:''}    

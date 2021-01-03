@@ -1,5 +1,5 @@
 import rescool_screen from '../../images/rescool_screenshot.png';
-
+import crusty_ass_png from '../../images/crusty_ass.png';
 const entries = [
     {
         "title":"SBLENDERS",
@@ -90,6 +90,34 @@ const entries = [
     "github_source":"https://github.com/BomberBeetle/rescool",
     "browse":"https://bomberbeetle.github.io/rescool/",
     "img": rescool_screen,
+},{
+    "title":"Rivals Keyboard Redirector",
+    "content":"This program was developed as a way to play the video game Rivals of Aether with 2 keyboards, which normally isn't possible. It relies on Joy2Key to translate keyboard input into controller input.",
+    "tags": [
+        {
+            "text":"Development Frozen",
+            "bootstrap_variant":"warning",
+            style: {},
+        },
+        {
+            "text":"C#",
+            "bootstrap_variant":"primary",
+            style: {},
+        },
+        {
+            "text":".NET Framework",
+            "bootstrap_variant":"primary",
+            style: {},
+        },
+        {
+            "text":"Windows Forms",
+            "bootstrap_variant":"secondary",
+            style: {},
+        }
+    ],
+    "github_source":"https://github.com/BomberBeetle/RivalsKeyboardRedirector",
+    "latest_release": "https://github.com/BomberBeetle/RivalsKeyboardRedirector/releases/tag/v0.4",
+    "img": crusty_ass_png,
 },];
 
 export default entries;
