@@ -21,7 +21,7 @@ function Homepage() {
                 <img src={mugshot} className="rounded Mugshot" alt="The author."/>
                 <p><small>Whoa mama, who's this handsome devil?</small></p>
             </div>
-            <p>In terms of education, I'm fresh outta high school right now, with an additional diploma as a Computing Technician at ETESP. I've dabbled in a somewhat wide range of technologies, like node.js, .NET Core, general C#, Android Studio (with Java), Arduino, HTML/CSS and more. If you want to see my work, you can go to my <a href="portfolio.html">portfolio right here.</a></p>
+            <p>In terms of education, I'm fresh outta high school right now, with an additional diploma as a Computing Technician at ETESP. I've dabbled in a somewhat wide range of technologies, like node.js, .NET Core, general C#, Android Studio (with Java), Arduino, HTML/CSS and more. If you want to see my work, you can go to my <a href="#portfolio">portfolio right here.</a></p>
             <h3>This is getting pretty boring. Can I play  with something?</h3>
             <p>yeah, sure. here's a clicky switch</p>
             <ClickySwitch toggled={true}/>
