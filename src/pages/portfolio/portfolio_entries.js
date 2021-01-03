@@ -1,9 +1,11 @@
 import rescool_screen from '../../images/rescool_screenshot.png';
 import crusty_ass_png from '../../images/crusty_ass.png';
+import sbrendis from '../../images/sbrendi.png'
+
 const entries = [
     {
         "title":"SBLENDERS",
-        "content":"SBLENDERS is the Course Conclusion Project that was developed in 2020 by me and a team of other students. It is a complete system for a ficticious fast food chain that specializes in making user-customized dishes. In the back-end, it sports a SQL Server database, .NET Core API and a management application written in Java. In the front-end, has a staff-centered application written in Android Studio with Java, a Windows Forms application for in-restaurant user operation and a website written in .ASP NET for delivery.",
+        "content":"SBLENDERS is the Course Conclusion Project that was developed in 2020 by me and a team of other students. It is a complete system for a ficticious fast food chain that specializes in making user-customized dishes. In the back-end, it sports a SQL Server database, .NET Core API and a management application written in Java. In the front-end, it has a staff-centered application written in Android Studio with Java, a Windows Forms application for in-restaurant user operation and a website written in .ASP NET for delivery.",
         "tags": [
             {
                 "text":"Finished",
@@ -37,7 +39,7 @@ const entries = [
             },
         ],
         "github_source":"https://github.com/users/BomberBeetle/projects/1",
-        "img": undefined,
+        "img": sbrendis,
     },
     {
         "title":"Robot Salad!",
@@ -92,7 +94,7 @@ const entries = [
     "img": rescool_screen,
 },{
     "title":"Rivals Keyboard Redirector",
-    "content":"This program was developed as a way to play the video game Rivals of Aether with 2 keyboards, which normally isn't possible. It relies on Joy2Key to translate keyboard input into controller input.",
+    "content":"This program was developed as a way to play the video game Rivals of Aether with 2 keyboards, which normally isn't possible. It relies on VJoy to translate keyboard input into controller input.",
     "tags": [
         {
             "text":"Development Frozen",
