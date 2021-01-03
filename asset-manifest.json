@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/robot-salad/static/css/main.6cdbe831.chunk.css",
+    "main.js": "/robot-salad/static/js/main.2cd76e13.chunk.js",
+    "main.js.map": "/robot-salad/static/js/main.2cd76e13.chunk.js.map",
+    "runtime-main.js": "/robot-salad/static/js/runtime-main.5caab29a.js",
+    "runtime-main.js.map": "/robot-salad/static/js/runtime-main.5caab29a.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/robot-salad/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.9c4b723e.chunk.js": "/robot-salad/static/js/2.9c4b723e.chunk.js",
+    "static/js/2.9c4b723e.chunk.js.map": "/robot-salad/static/js/2.9c4b723e.chunk.js.map",
+    "static/js/3.afa2e7a1.chunk.js": "/robot-salad/static/js/3.afa2e7a1.chunk.js",
+    "static/js/3.afa2e7a1.chunk.js.map": "/robot-salad/static/js/3.afa2e7a1.chunk.js.map",
+    "index.html": "/robot-salad/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/robot-salad/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.6cdbe831.chunk.css.map": "/robot-salad/static/css/main.6cdbe831.chunk.css.map",
+    "static/js/2.9c4b723e.chunk.js.LICENSE.txt": "/robot-salad/static/js/2.9c4b723e.chunk.js.LICENSE.txt",
+    "static/media/click.8a91082b.mp3": "/robot-salad/static/media/click.8a91082b.mp3",
+    "static/media/crusty_ass.f81d867e.png": "/robot-salad/static/media/crusty_ass.f81d867e.png",
+    "static/media/handsome_person.7a51c54f.jpg": "/robot-salad/static/media/handsome_person.7a51c54f.jpg",
+    "static/media/rescool_screenshot.a0e0ddbd.png": "/robot-salad/static/media/rescool_screenshot.a0e0ddbd.png",
+    "static/media/sbrendi.7c7a378a.png": "/robot-salad/static/media/sbrendi.7c7a378a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5caab29a.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.9c4b723e.chunk.js",
+    "static/css/main.6cdbe831.chunk.css",
+    "static/js/main.2cd76e13.chunk.js"
+  ]
+}
