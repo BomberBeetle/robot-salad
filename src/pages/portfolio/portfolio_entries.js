@@ -1,6 +1,7 @@
 import rescool_screen from '../../images/rescool_screenshot.png';
 import crusty_ass_png from '../../images/crusty_ass.png';
-import sbrendis from '../../images/sbrendi.png'
+import sbrendis from '../../images/sbrendi.png';
+import lil_chatlog from '../../images/lil_chatlog.png'
 
 const entries = [
     {
@@ -120,6 +121,39 @@ const entries = [
     "github_source":"https://github.com/BomberBeetle/RivalsKeyboardRedirector",
     "latest_release": "https://github.com/BomberBeetle/RivalsKeyboardRedirector/releases/tag/v0.4",
     "img": crusty_ass_png,
-},];
+},
+{
+    "title":"MechMaker",
+    "content":"Discord chatbot made for skill-based matchmaking that includes a shop system.",
+    "tags": [
+        {
+            "text":"Finished",
+            "bootstrap_variant":"success",
+            style: {},
+        },
+        {
+            "text":"nodeJS",
+            "bootstrap_variant":"primary",
+            style: {},
+        },
+        {
+            "text":"discord.JS",
+            "bootstrap_variant":"primary",
+            style: {},
+        },
+        {
+            "text":"Chatbot",
+            "bootstrap_variant":"primary",
+            style: {},
+        },
+        {
+            "text":"MongoDB",
+            "bootstrap_variant":"secondary",
+            style: {},
+        }
+    ],
+    "github_source":"https://github.com/BomberBeetle/mechmaker",
+    "img": lil_chatlog,  
+}];
 
 export default entries;
