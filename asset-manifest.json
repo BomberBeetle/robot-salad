@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/robot-salad/static/css/main.d5bb8983.chunk.css",
-    "main.js": "/robot-salad/static/js/main.d8216a50.chunk.js",
-    "main.js.map": "/robot-salad/static/js/main.d8216a50.chunk.js.map",
+    "main.js": "/robot-salad/static/js/main.beca8985.chunk.js",
+    "main.js.map": "/robot-salad/static/js/main.beca8985.chunk.js.map",
     "runtime-main.js": "/robot-salad/static/js/runtime-main.d519fada.js",
     "runtime-main.js.map": "/robot-salad/static/js/runtime-main.d519fada.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/robot-salad/static/css/2.20aa2d7b.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/click.8a91082b.mp3": "/robot-salad/static/media/click.8a91082b.mp3",
     "static/media/crusty_ass.f81d867e.png": "/robot-salad/static/media/crusty_ass.f81d867e.png",
     "static/media/handsome_person.7a51c54f.jpg": "/robot-salad/static/media/handsome_person.7a51c54f.jpg",
+    "static/media/lil_chatlog.c6044fb3.png": "/robot-salad/static/media/lil_chatlog.c6044fb3.png",
     "static/media/rescool_screenshot.a0e0ddbd.png": "/robot-salad/static/media/rescool_screenshot.a0e0ddbd.png",
     "static/media/sbrendi.7c7a378a.png": "/robot-salad/static/media/sbrendi.7c7a378a.png"
   },
@@ -25,6 +26,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.bd6b6f19.chunk.js",
     "static/css/main.d5bb8983.chunk.css",
-    "static/js/main.d8216a50.chunk.js"
+    "static/js/main.beca8985.chunk.js"
   ]
 }
