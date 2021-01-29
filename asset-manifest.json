@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/robot-salad/static/css/main.d5bb8983.chunk.css",
-    "main.js": "/robot-salad/static/js/main.beca8985.chunk.js",
-    "main.js.map": "/robot-salad/static/js/main.beca8985.chunk.js.map",
+    "main.js": "/robot-salad/static/js/main.c53f9f48.chunk.js",
+    "main.js.map": "/robot-salad/static/js/main.c53f9f48.chunk.js.map",
     "runtime-main.js": "/robot-salad/static/js/runtime-main.d519fada.js",
     "runtime-main.js.map": "/robot-salad/static/js/runtime-main.d519fada.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/robot-salad/static/css/2.20aa2d7b.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.bd6b6f19.chunk.js",
     "static/css/main.d5bb8983.chunk.css",
-    "static/js/main.beca8985.chunk.js"
+    "static/js/main.c53f9f48.chunk.js"
   ]
 }
