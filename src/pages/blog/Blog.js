@@ -18,8 +18,16 @@ function Blog(){
                 {
                     posts.map(post=>{
                         return(
-                            <BlogPost>
+                            <BlogPost 
+
+                             title={post.title}
+                             subtitle={post.subtitle}
+                             date = {post.date}
+                             
+                            >
+
                                 {post.JSXcontent}
+
                             </BlogPost>
                         )
                     })
