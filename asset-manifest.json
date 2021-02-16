@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/robot-salad/static/css/main.9d091ea5.chunk.css",
+    "main.css": "/robot-salad/static/css/main.bbc44b4e.chunk.css",
     "main.js": "/robot-salad/static/js/main.9d407500.chunk.js",
     "main.js.map": "/robot-salad/static/js/main.9d407500.chunk.js.map",
     "runtime-main.js": "/robot-salad/static/js/runtime-main.f1a7b74f.js",
@@ -12,7 +12,7 @@
     "static/js/3.c36e9efc.chunk.js.map": "/robot-salad/static/js/3.c36e9efc.chunk.js.map",
     "index.html": "/robot-salad/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/robot-salad/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.9d091ea5.chunk.css.map": "/robot-salad/static/css/main.9d091ea5.chunk.css.map",
+    "static/css/main.bbc44b4e.chunk.css.map": "/robot-salad/static/css/main.bbc44b4e.chunk.css.map",
     "static/js/2.4a61a942.chunk.js.LICENSE.txt": "/robot-salad/static/js/2.4a61a942.chunk.js.LICENSE.txt",
     "static/media/index.css": "/robot-salad/static/media/OpenDyslexic-Regular.1455ef8f.otf",
     "static/media/clairen_drip.a0cb9c40.png": "/robot-salad/static/media/clairen_drip.a0cb9c40.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.f1a7b74f.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.4a61a942.chunk.js",
-    "static/css/main.9d091ea5.chunk.css",
+    "static/css/main.bbc44b4e.chunk.css",
     "static/js/main.9d407500.chunk.js"
   ]
 }
