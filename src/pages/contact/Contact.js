@@ -6,15 +6,6 @@ import './Contact.css'
 import AnchoredCard from '../../components/anchored_card/AnchoredCard'
 import { RiDiscordFill, RiTwitterFill, RiGithubFill, RiMailFill } from 'react-icons/ri';
 
-//metaprogramming ftw!
-function generateClipboardHandler(toClipboard){
-    return(
-        ()=>{
-            navigator.clipboard.writeText(toClipboard);
-        }
-    )
-}
-
 function Contact() {
     return (
       <div>

@@ -1,22 +1,28 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import logo from '../../logo.svg'
 //import NavDropdown from 'react-bootstrap/NavDropdown'
 import './Navigator.css';
 
 class Navigator extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return(
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="/">Robot Salad!</Navbar.Brand>
+            <Navbar.Brand href="/" className="brand">
+                <img
+                    src={logo}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="Robot Salad logo"
+                />
+            Robot Salad!</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="#/">Home</Nav.Link>
                     <Nav.Link href="#/portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="#/blog">Blog</Nav.Link>
                     <Nav.Link href="#/contact">Contact Me</Nav.Link>
