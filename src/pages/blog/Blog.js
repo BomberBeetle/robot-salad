@@ -1,18 +1,16 @@
 import './Blog.css';
-
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
 import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
-
 import posts from './posts'
 import BlogPost from '../../components/blog_post/BlogPost'
 
 function Blog(){
     return(
-        <div>
+      <div className="BlogRoot"> 
       <Navigator/>
-      <Container className="MainContainer">
+      <Container className="MainContainerBlog">
       <Row className="justify-content-center" gx={2}>
           <Col className="text-break" sm={10} >
                 {

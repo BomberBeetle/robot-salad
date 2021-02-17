@@ -1,10 +1,11 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
+import "./blog_post.css";
 
 class AnchoredCard extends React.Component{
     render(){
         return(
-        <Card>
+        <Card className="PostCard">
             <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">{this.props.subtitle}</Card.Subtitle>

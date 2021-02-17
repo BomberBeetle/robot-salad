@@ -3,6 +3,21 @@ import drippinCat from '../../images/clairen_drip.png';
 const posts =
 [
     {
+        title: "DYUERS COLORS!!!",
+        subtitle: "A fresh coat of pixels",
+        date: Date.parse("02/17/2021 15:41"),
+        JSXcontent:(<div>
+            <p>
+                The second blog post! This is just a little update to say that the website is now getting some colors (with an "u" if you are British) and a new logo, so it looks less like a plain piece of bread!  
+            </p>
+            <p>
+                To be honest this isn't even my favorite color scheme, I didn't even manage to implement some blue, but here we are! 
+            </p>
+            <iframe width="100%" src="https://www.youtube.com/embed/uxXFRt4BmBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>),
+    },
+
+    {
     title: "First Post",
     subtitle: "I made this on a 12AM power spike, don't judge me.",
     date: Date.parse("02/02/2021 00:15"),
@@ -22,5 +37,6 @@ const posts =
         </p>
     </div>),
     }
+
 ]
 export default posts;

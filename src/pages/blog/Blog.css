@@ -1,3 +1,9 @@
-.MainContainer{
+.MainContainerBlog{
     margin-top: 25px;
+    background-color: #b9f6ca;
   }
+
+.BlogRoot{
+  background-color: #b9f6ca;
+  height: max-content;
+}

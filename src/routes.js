@@ -10,9 +10,9 @@ export default function Routes(){
         <HashRouter basename={`${process.env.PUBLIC_URL}/`}>
             <Switch>
                 <Route path = "/" exact component = {Homepage}/>
-                <Route path ="/portfolio" component = {Portfolio}/>
-                <Route path ="/contact" component = {Contact}/>
-                <Route path ="/blog" component = {Blog}/>
+                <Route path ="/portfolio"  component = {Portfolio}/>
+                <Route path ="/contact"  component = {Contact}/>
+                <Route path ="/blog"  component = {Blog}/>
             </Switch>
         </HashRouter>
     )

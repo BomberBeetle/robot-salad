@@ -2,19 +2,18 @@ import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
 import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
-
 import entries from './portfolio_entries';
-
 import PortfolioEntry from '../../components/portfolio_entry/PortfolioEntry'
+import './portfolio.css'
 
 function Portfolio(){
     return(
-    <div>
+    <div className="PortfolioRoot">
     <Navigator/>
     <Container className="MainContainer">
     <Row className="justify-content-center IntroRow" gx={2}>
         <Col className="text-break IntroContentCol" sm={10}>
-            <h1>André Luiz's Portfolio</h1>
+            <h1 style={{marginTop: "25px"}}>André Luiz's Portfolio</h1>
             <p>Here you can see some of my <i>finest</i> works! Click on the tags to see other works of mine with the same tag.</p>
             {
                 entries.map(entry=>{

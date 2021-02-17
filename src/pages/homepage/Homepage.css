@@ -1,4 +1,6 @@
 .IntroRow {
+  margin-top: 25px;
+  border-radius: 10px;
   background-color: white;
   height: fit-content;
 }
@@ -15,6 +17,7 @@
   display: inline-flex;
 }
 
-.MainContainer{
-  margin-top: 25px;
+.HomepageRoot{
+  padding-bottom: 10px;
+  background-color: #b9f6ca;
 }

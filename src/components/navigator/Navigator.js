@@ -9,7 +9,7 @@ class Navigator extends React.Component{
 
     render(){
         return(
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar className="nav-root" variant="dark" expand="lg">
             <Navbar.Brand href="/" className="brand">
                 <img
                     src={logo}

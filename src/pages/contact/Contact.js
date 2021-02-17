@@ -8,7 +8,7 @@ import { RiDiscordFill, RiTwitterFill, RiGithubFill, RiMailFill } from 'react-ic
 
 function Contact() {
     return (
-      <div>
+      <div className="ContactRoot">
       <Navigator/>
       <Container className="MainContainer">
       <Row className="justify-content-center" gx={2}>
