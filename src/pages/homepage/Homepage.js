@@ -18,7 +18,7 @@ function Homepage() {
             <h3>cool, but who wrote this, exactly?</h3>
             <p>Oh, <b>I'm so glad you asked.</b> I'm <b>André Luiz</b>, also known on the internet by the pseudonyms <b>BomberBeetle</b> (on <a href="https://github.com/BomberBeetle">GitHub</a>) and <b>xdre</b> (pretty much everywhere else). I come from São Paulo, Brazil, known as the land of the drizzle (and also the economic centre of Brazil).</p>
             <div className="text-center">
-                <img src={mugshot} className="rounded Mugshot" alt="The author."/>
+                <a href="https://youtu.be/2ocykBzWDiM"><img src={mugshot} className="rounded Mugshot" alt="The author."/></a>
                 <p><small>Whoa mama, who's this handsome devil?</small></p>
             </div>
             <p>In terms of education, I'm fresh outta high school right now, with an additional diploma as a Computing Technician at ETESP. I've dabbled in a somewhat wide range of technologies, like node.js, .NET Core, general C#, Android Studio (with Java), Arduino, HTML/CSS and more. If you want to see my work, you can go to my <a href="#portfolio">portfolio right here.</a></p>
