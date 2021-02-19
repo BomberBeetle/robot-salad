@@ -1,3 +1,4 @@
+import {Component} from 'react';
 import mugshot from '../../images/handsome_person.jpg';
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
@@ -5,16 +6,21 @@ import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
 import ClickySwitch from '../../components/clicky_switch/ClickySwitch';
 import './Homepage.css';
+import ThemeContext from '../../theme-context';
 
-function Homepage() {
+class Homepage extends Component{
+
+render() {
+  let font = this.context.font;
+  let theme = this.context.theme;
   return (
-    <div className="HomepageRoot">
+    <div className="HomepageRoot" style={theme.background}>
     <Navigator/>
     <Container>
-    <Row className="justify-content-center IntroRow" gx={2}>
-        <Col className="text-break IntroContentCol" sm={10}  >
+    <Row className="justify-content-center IntroRow" gx={2} style={theme.content}>
+        <Col className="text-break IntroContentCol" sm={10} style={{fontFamily: font,}} >
             <h1 style={{marginTop:"30px"}}>Welcome to Robot Salad!</h1>
-            <p>This is my personal website, where i'm going to put all sortsa things! Mostly just showing off my work, but also fun experiments, gags and more. There's also a blog section if you want to keep up to date with the latest hijinks I've been up to. </p>
+            <p>This is my personal website, where i'm going to put all sortsa things! Mostly just showing off my work, but also fun experiments, gags and more. There's also a blog section if you want to keep up to date with the latest hijinks I've been up to.</p>
             <h3>cool, but who wrote this, exactly?</h3>
             <p>Oh, <b>I'm so glad you asked.</b> I'm <b>André Luiz</b>, also known on the internet by the pseudonyms <b>BomberBeetle</b> (on <a href="https://github.com/BomberBeetle">GitHub</a>) and <b>xdre</b> (pretty much everywhere else). I come from São Paulo, Brazil, known as the land of the drizzle (and also the economic centre of Brazil).</p>
             <div className="text-center">
@@ -42,5 +48,8 @@ function Homepage() {
 </div>
   );
 }
+}
+
+Homepage.contextType = ThemeContext;
 
 export default Homepage;

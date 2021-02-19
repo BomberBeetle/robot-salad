@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import logo from '../../logo.svg'
-//import NavDropdown from 'react-bootstrap/NavDropdown'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import {Switch} from '@material-ui/core'
 import './Navigator.css';
 
 class Navigator extends React.Component{
@@ -26,15 +27,12 @@ class Navigator extends React.Component{
                     <Nav.Link href="#/portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="#/blog">Blog</Nav.Link>
                     <Nav.Link href="#/contact">Contact Me</Nav.Link>
-                    {/*
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    
+                    <NavDropdown title="Accessibility" id="basic-nav-dropdown">
+                    <NavDropdown.Item > <Switch></Switch>Dyslexic Font</NavDropdown.Item>
+                    <NavDropdown.Item > <Switch></Switch>Larger Font</NavDropdown.Item>
+
                     </NavDropdown>
-                    */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

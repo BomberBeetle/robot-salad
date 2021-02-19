@@ -1,3 +1,4 @@
+import {Component} from 'react';
 import './Blog.css';
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
@@ -5,14 +6,18 @@ import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
 import posts from './posts'
 import BlogPost from '../../components/blog_post/BlogPost'
+import ThemeContext from '../../theme-context';
 
-function Blog(){
+class Blog extends Component{
+render(){
+    let theme = this.context.theme;
+    let font = this.context.font;
     return(
-      <div className="BlogRoot"> 
+      <div className="BlogRoot" style={theme.background}> 
       <Navigator/>
-      <Container className="MainContainerBlog">
-      <Row className="justify-content-center" gx={2}>
-          <Col className="text-break" sm={10} >
+      <Container className="MainContainerBlog" style={theme.content}>
+      <Row className="justify-content-center" gx={2} style={{fontFamily: font,}}>
+          <Col className="text-break" sm={10} style={{marginTop:"25px",}}>
                 {
                     posts.map(post=>{
                         return(
@@ -21,7 +26,7 @@ function Blog(){
                              title={post.title}
                              subtitle={post.subtitle}
                              date = {post.date}
-                             
+                             style = {theme.cards}
                             >
 
                                 {post.JSXcontent}
@@ -36,5 +41,7 @@ function Blog(){
   </div>
     )
 }
+}
 
+Blog.contextType = ThemeContext;
 export default Blog;

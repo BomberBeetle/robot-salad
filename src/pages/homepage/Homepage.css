@@ -1,12 +1,7 @@
 .IntroRow {
   margin-top: 25px;
   border-radius: 10px;
-  background-color: white;
   height: fit-content;
-}
-
-.IntroContentCol {
-  background-color: white;
 }
 
 .Mugshot {
@@ -19,5 +14,4 @@
 
 .HomepageRoot{
   padding-bottom: 10px;
-  background-color: #b9f6ca;
 }

@@ -13,7 +13,7 @@ const posts =
             <p>
                 To be honest this isn't even my favorite color scheme, I didn't even manage to implement some blue, but here we are! 
             </p>
-            <iframe width="100%" src="https://www.youtube.com/embed/uxXFRt4BmBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/uxXFRt4BmBI" title="DYUERS COLORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>),
     },
 

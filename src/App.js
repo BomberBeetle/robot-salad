@@ -2,10 +2,13 @@
 import React from 'react';
 import Routes from './routes' 
 
-function App() {
+class App extends React.Component{
+
+render() {
   return (
     <Routes />
   );
+}
 }
 
 export default App;

@@ -44,7 +44,7 @@ class PortfolioEntry extends React.Component{
     render(){
         console.log(this.props.img);
         return (
-            <Card className="EntryCard">
+            <Card className="EntryCard" style={this.props.style?this.props.style:{}}>
                 <Card.Body>
                     <Card.Title>
                         {this.props.title?this.props.title:"[Untitled]"}
