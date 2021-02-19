@@ -1,12 +1,11 @@
 import {Component} from 'react';
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
-import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
 import './Contact.css'
 import AnchoredCard from '../../components/anchored_card/AnchoredCard'
 import { RiDiscordFill, RiTwitterFill, RiGithubFill, RiMailFill } from 'react-icons/ri';
-import ThemeContext from '../../theme-context';
+import {ThemeContext} from '../../theme-context';
 
 class Contact extends Component{
 render() {
@@ -14,7 +13,6 @@ render() {
     let font = this.context.font;
     return (
       <div className="ContactRoot" style={theme.background}>
-      <Navigator/>
       <Container className="MainContainer">
       <Row className="justify-content-center" gx={2} style={{fontFamily: font,}}>
           <Col className="text-break" sm={10} style={theme.content}>

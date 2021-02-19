@@ -1,6 +1,6 @@
 import {createContext} from 'react';
 
-const themes = {
+export const themes = {
     light:{
         content:{
             backgroundColor:"white"
@@ -23,21 +23,23 @@ const themes = {
     darkest:{}
 }
 
-const sizes = {
+export const sizes = {
     normal: {},
     large: {}
 }
 
-const fonts = {
-    normal: {},
+export const fonts = {
+    normal: 'inherit',
     dyslexic: 'Open Dyslexic'
 }
 
-const ThemeContext = createContext({
+export const ThemeContext = createContext({
     theme: themes.dark,
     size: sizes.normal,
     font: fonts.dyslexic,
+
+    toggleFont: () =>{}
    })
 
-export default ThemeContext;
+
    

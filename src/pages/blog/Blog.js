@@ -1,12 +1,11 @@
 import {Component} from 'react';
 import './Blog.css';
 import Container from  'react-bootstrap/Container';
-import Row from  'react-bootstrap/Row';
-import Navigator from '../../components/navigator/Navigator'
+import Row from  'react-bootstrap/Row'
 import Col from  'react-bootstrap/Col';
 import posts from './posts'
 import BlogPost from '../../components/blog_post/BlogPost'
-import ThemeContext from '../../theme-context';
+import {ThemeContext} from '../../theme-context';
 
 class Blog extends Component{
 render(){
@@ -14,7 +13,6 @@ render(){
     let font = this.context.font;
     return(
       <div className="BlogRoot" style={theme.background}> 
-      <Navigator/>
       <Container className="MainContainerBlog" style={theme.content}>
       <Row className="justify-content-center" gx={2} style={{fontFamily: font,}}>
           <Col className="text-break" sm={10} style={{marginTop:"25px",}}>

@@ -1,12 +1,11 @@
 import {Component} from 'react';
 import Container from  'react-bootstrap/Container';
 import Row from  'react-bootstrap/Row';
-import Navigator from '../../components/navigator/Navigator'
 import Col from  'react-bootstrap/Col';
 import entries from './portfolio_entries';
 import PortfolioEntry from '../../components/portfolio_entry/PortfolioEntry'
 import './portfolio.css';
-import ThemeContext from '../../theme-context';
+import {ThemeContext} from '../../theme-context';
 
 class Portfolio extends Component{
 render(){
@@ -14,7 +13,6 @@ render(){
     let font = this.context.font;
     return(
     <div className="PortfolioRoot" style={theme.background}>
-    <Navigator/>
     <Container className="MainContainer" style={theme.content}>
     <Row className="justify-content-center IntroRow" gx={2} style={{fontFamily: font,}}>
         <Col className="text-break IntroContentCol" sm={10}>
