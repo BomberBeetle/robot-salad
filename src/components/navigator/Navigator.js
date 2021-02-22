@@ -5,11 +5,12 @@ import logo from '../../logo.svg'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import {Switch} from '@material-ui/core'
 import './Navigator.css';
-import {ThemeContext, fonts} from '../../theme-context'
+import {ThemeContext, fonts, themes} from '../../theme-context'
 
 class Navigator extends Component{
 
     render(){
+        let latestFont = this.context.font;
         return(
         <Navbar className="nav-root" variant="dark" expand="lg">
             <Navbar.Brand href="/" className="brand">
@@ -28,10 +29,11 @@ class Navigator extends Component{
                     <Nav.Link href="#/portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="#/blog">Blog</Nav.Link>
                     <Nav.Link href="#/contact">Contact Me</Nav.Link>
+                    <Nav.Link as="span" onClick={this.propagationStopper}>Dark Mode<Switch size="small" onClick={(e)=>this.themeSwitchHandler(e, this.props.setTheme)}/></Nav.Link>
                     
                     <NavDropdown rootCloseEvent="none" title="Accessibility" id="basic-nav-dropdown">
-                    <NavDropdown.Item as="div" onClick={this.dropdownClickHandler}> <Switch onChange={(e)=>{this.dyslexiaSwitchHandler(e, this.props.setFont)}}></Switch>Dyslexic Font</NavDropdown.Item>
-                    <NavDropdown.Item as="div" onClick={this.dropdownClickHandler}> <Switch></Switch>Larger Font</NavDropdown.Item>
+                    <NavDropdown.Item as="div" onClick={this.propagationStopper}> <Switch color="primary"checked={latestFont===fonts.dyslexic} onChange={(e)=>{this.dyslexiaSwitchHandler(e, this.props.setFont)}}></Switch>Dyslexic Font</NavDropdown.Item>
+                    <NavDropdown.Item as="div" onClick={this.propagationStopper}> <Switch color="primary"></Switch>Larger Font</NavDropdown.Item>
 
                     </NavDropdown>
                 </Nav>
@@ -50,7 +52,18 @@ class Navigator extends Component{
         }
     }
 
-    dropdownClickHandler(event){
+    themeSwitchHandler(event, setTheme){
+        if(event.target.checked){
+            setTheme(themes.dark);
+        }
+        else{
+            setTheme(themes.light);
+            console.log("globgabgalab")
+        }
+    }
+    
+
+    propagationStopper(event){
         event.nativeEvent.stopImmediatePropagation();
     }
 }
