@@ -13,7 +13,7 @@ constructor(props){
       font: fonts.normal,
       size: sizes.normal,
     },
-    locale: locales.us,
+    locale: locales.br,
   }
 }
 
