@@ -1,7 +1,8 @@
 import React from 'react';
 import Routes from './routes' 
 import Navigator from './components/navigator/Navigator'
-import {ThemeContext, themes, fonts, sizes} from './theme-context';
+import {ThemeContext, themes, fonts, sizes} from './context/theme-context';
+import {LocaleContext, locales} from './context/locale-context';
 
 class App extends React.Component{
 constructor(props){
@@ -11,7 +12,8 @@ constructor(props){
       theme: themes.light,
       font: fonts.normal,
       size: sizes.normal,
-    }
+    },
+    locale: locales.us,
   }
 }
 
@@ -27,13 +29,21 @@ setTheme = (theme) => {
   this.setState(newState);
 }
 
+setLocale (locale){
+  let newState = this.state;
+  newState.locale = locale;
+  this.setState(newState);
+}
+
 render() {
   return (
     <div style={{height:"100%",...this.state.style.theme.background}}>
+    <LocaleContext.Provider value={this.state.locale}>
     <ThemeContext.Provider value={this.state.style}>
     <Navigator setFont={this.setFont} setTheme={this.setTheme}/>
     <Routes />
     </ThemeContext.Provider>
+    </LocaleContext.Provider>
     </div>
   );
 }

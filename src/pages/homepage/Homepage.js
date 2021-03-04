@@ -5,7 +5,7 @@ import Row from  'react-bootstrap/Row';
 import Col from  'react-bootstrap/Col';
 import ClickySwitch from '../../components/clicky_switch/ClickySwitch';
 import './Homepage.css';
-import {ThemeContext} from '../../theme-context';
+import {ThemeContext} from '../../context/theme-context';
 
 class Homepage extends Component{
 

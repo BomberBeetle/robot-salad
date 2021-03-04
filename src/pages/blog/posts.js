@@ -6,7 +6,7 @@ const posts =
         title: "DYUERS COLORS!!!",
         subtitle: "A fresh coat of pixels",
         date: Date.parse("02/17/2021 15:41"),
-        JSXcontent:(<div>
+        JSXcontent:(<div>q
             <p>
                 The second blog post! This is just a little update to say that the website is now getting some colors (with an "u" if you are British) and a new logo, so it looks less like a plain piece of bread!  
             </p>

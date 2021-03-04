@@ -5,7 +5,7 @@ import Col from  'react-bootstrap/Col';
 import entries from './portfolio_entries';
 import PortfolioEntry from '../../components/portfolio_entry/PortfolioEntry'
 import './portfolio.css';
-import {ThemeContext} from '../../theme-context';
+import {ThemeContext} from '../../context/theme-context';
 
 class Portfolio extends Component{
 render(){

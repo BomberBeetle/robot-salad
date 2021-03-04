@@ -5,7 +5,7 @@ import logo from '../../logo.svg'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import {Switch} from '@material-ui/core'
 import './Navigator.css';
-import {ThemeContext, fonts, themes} from '../../theme-context'
+import {ThemeContext, fonts, themes} from '../../context/theme-context'
 
 class Navigator extends Component{
 

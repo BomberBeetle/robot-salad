@@ -5,7 +5,7 @@ import Row from  'react-bootstrap/Row'
 import Col from  'react-bootstrap/Col';
 import posts from './posts'
 import BlogPost from '../../components/blog_post/BlogPost'
-import {ThemeContext} from '../../theme-context';
+import {ThemeContext} from '../../context/theme-context';
 
 class Blog extends Component{
 render(){

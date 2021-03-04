@@ -5,7 +5,7 @@ import Col from  'react-bootstrap/Col';
 import './Contact.css'
 import AnchoredCard from '../../components/anchored_card/AnchoredCard'
 import { RiDiscordFill, RiTwitterFill, RiGithubFill, RiMailFill } from 'react-icons/ri';
-import {ThemeContext} from '../../theme-context';
+import {ThemeContext} from '../../context/theme-context';
 
 class Contact extends Component{
 render() {
