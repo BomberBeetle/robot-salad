@@ -6,6 +6,7 @@ import './Contact.css'
 import AnchoredCard from '../../components/anchored_card/AnchoredCard'
 import { RiDiscordFill, RiTwitterFill, RiGithubFill, RiMailFill } from 'react-icons/ri';
 import {ThemeContext} from '../../context/theme-context';
+import {LocaleContext, locales} from '../../context/locale-context';
 
 class Contact extends Component{
 render() {
@@ -16,8 +17,20 @@ render() {
       <Container className="MainContainer">
       <Row className="justify-content-center" gx={2} style={{fontFamily: font,}}>
           <Col className="text-break" sm={10} style={theme.content}>
-              <h3>Contact Me</h3>
-              <p>In this page, you can find some places you can hit me up.</p>
+              <LocaleContext.Consumer>
+              {
+                    currentLocale => {
+                        if(currentLocale===locales.us){
+                              console.log(require('./locale-content/us.js').default);
+                              return require('./locale-content/us.js').default;
+                            }
+                            else if(currentLocale===locales.br){
+                              console.log(require('./locale-content/br.js').default);
+                              return require('./locale-content/br.js').default;
+                            }
+                    }
+              }
+              </LocaleContext.Consumer>
               
               <AnchoredCard style={theme.cards}>
                     <RiDiscordFill size="30px"/> xdre#1888

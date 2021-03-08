@@ -26,7 +26,6 @@ render() {
                   else if(currentLocale===locales.br){
                     content = require('./locale-content/br.js').default;
                   }
-                  console.log(content);
                   return (<span>
                     {content.intro}
                     {content.switches}
