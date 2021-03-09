@@ -1,14 +1,14 @@
-import drippinCat from '../../images/clairen_drip.png';
+import drippinCat from '../../../images/clairen_drip.png';
 
-const posts =
+export const posts =
 [
     {
         title: "DYUERS COLORS!!!",
         subtitle: "A fresh coat of pixels",
         date: Date.parse("02/17/2021 15:41"),
-        JSXcontent:(<div>q
+        JSXcontent:(<div>
             <p>
-                The second blog post! This is just a little update to say that the website is now getting some colors (with an "u" if you are British) and a new logo, so it looks less like a plain piece of bread!  
+               jortgs This is just a little update to say that the website is now getting some colors (with an "u" if you are British) and a new logo, so it looks less like a plain piece of bread!  
             </p>
             <p>
                 To be honest this isn't even my favorite color scheme, I didn't even manage to implement some blue, but here we are! 
@@ -39,4 +39,5 @@ const posts =
     }
 
 ]
-export default posts;
+
+export const content = []
