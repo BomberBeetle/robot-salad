@@ -3,32 +3,32 @@ import mugshot from '../../../images/handsome_person.jpg';
 const content = {
 
     intro: (<span>
-    <h1 style={{marginTop:"30px"}}>Welcome to Robot Salad!</h1>
-    <p>CHUPA MINHA PICA</p>
-    <h3>cool, but who wrote this, exactly?</h3>
-    <p>Oh, <b>I'm so glad you asked.</b> I'm <b>André Luiz</b>, also known on the internet by the pseudonyms <b>BomberBeetle</b> (on <a href="https://github.com/BomberBeetle">GitHub</a>) and <b>xdre</b> (pretty much everywhere else). I come from São Paulo, Brazil, known as the land of the drizzle (and also the economic centre of Brazil).</p>
-    <div className="text-center">
-        <a href="https://youtu.be/2ocykBzWDiM"><img src={mugshot} className="rounded Mugshot" alt="The author."/></a>
-        <p><small>Whoa mama, who's this handsome devil?</small></p>
-    </div>
-    <p>In terms of education, I'm fresh outta high school right now, with an additional diploma as a Computing Technician at ETESP. I've dabbled in a somewhat wide range of technologies, like node.js, .NET Core, general C#, Android Studio (with Java), Arduino, HTML/CSS and more. If you want to see my work, you can go to my <a href="#portfolio">portfolio right here.</a></p>
-    </span>),
+        <h1 style={{marginTop:"30px"}}>Bem-vindo ao Robot Salad!</h1>
+        <p>Esse é meu site pessoal, onde eu vou botar um monte de coisa! Primariamente mostrando meu trabalho, mas também com umas idiotices. Também tem uma seção de blog caso você queira se atualizar com as coisas que eu tenho feito!</p>
+        <h3>daora, mas quem escreveu isso, exatamente?</h3>
+        <p>Ah, <b>muito obrigado por pergutar.</b> Eu sou <b>André Luiz</b>, também conhecido na internet pelos pseudônimos <b>BomberBeetle</b> (no <a href="https://github.com/BomberBeetle">GitHub</a>) e <b>xdre</b> (em tipo todos os outros lugares). Eu venho de São Paulo, Brasil, conhecida como "cidade da garoa" (e também o centro econômico do país).</p>
+        <div className="text-center">
+            <a href="https://youtu.be/2ocykBzWDiM"><img src={mugshot} className="rounded Mugshot" alt="The author."/></a>
+            <p><small>caramba, quem é esse gostosão?</small></p>
+        </div>
+        <p>Em termos de educação, eu acabei de sair do ensino médio, com um diploma de técnico em informática na ETESP. Eu já provei várias tecnologias diferentes, como node.js, .NET Core, C# geral, Android Studio (com Java), Arduino, HTML/CSS e mais. Se quiser ver meu trabalho, visite meu <a href="#portfolio">portfólio aqui.</a></p>
+        </span>),
 
     switches:(
-        <span><h3>This is getting pretty boring. Can I play  with something?</h3>
-        <p>yeah, sure. here's a clicky switch</p>
+        <span><h3>Isso tá ficando chato. Eu posso mexer em alguma coisa?</h3>
+        <p>tá bom. aqui, um interruptor</p>
         <ClickySwitch toggled={true}/>
-        <p>In fact, you can have two more:</p>
+        <p>aqui, mais dois:</p>
         <div className="switchHell">
           <ClickySwitch toggled={true}/> 
           <ClickySwitch toggled={false}/>
         </div>
-        <p>Have fun.</p></span>
+        <p>Se divirta.</p></span>
     ),
     
     ending: (
-        <span><h3>Thanks! What now?</h3>
-        <p>Well, there's still plenty to do here! As I mentioned earlier, you could go to <a href="#portfolio">my portfolio</a> to see some of my machinations, or you could visit the <a href="#blog">blog section</a> to read some of my ramblings. Also, if you want to have a chat, <a href="#contact">here</a> are some places you can hit me up!</p> </span>
+        <span><h3>Obrigado! Agora oquê?</h3>
+        <p>Bem, ainda tem bastante coisa pra fazer aqui! Como eu falei antes, você pode ir pro meu <a href="#portfolio">meu portfólio</a> pra ver minhas invenções, ou você pode visitar <a href="#blog">o blog</a> pra ler minhas besteiras. Aliás se você quiser bater um papo, <a href="#contact">aqui</a> aqui estão alguns lugares que você pode me contatar!</p> </span>
     ),
 }
 

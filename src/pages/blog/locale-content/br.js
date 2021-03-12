@@ -4,36 +4,36 @@ export const posts =
 [
     {
         title: "DYUERS COLORS!!!",
-        subtitle: "A fresh coat of pixels",
+        subtitle: "Uma segunda mão de pixels",
         date: Date.parse("02/17/2021 15:41"),
         JSXcontent:(<div>
             <p>
-               jortgs This is just a little update to say that the website is now getting some colors (with an "u" if you are British) and a new logo, so it looks less like a plain piece of bread!  
+                O segundo post! Isso é só uma atualização pra dizer que o site tá levando uma nova mão de tinta pra se parecer menos com um pão pulman!  
             </p>
             <p>
-                To be honest this isn't even my favorite color scheme, I didn't even manage to implement some blue, but here we are! 
+               Honestamente esse não é nem meu esquema de cores favorito, eu nem consegui implementar um azul, mas aqui estamos! 
             </p>
-            <iframe width="100%" src="https://www.youtube.com/embed/uxXFRt4BmBI" title="DYUERS COLORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/HguKPVgIZL8" title="DYUERS COLORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>),
     },
 
     {
-    title: "First Post",
-    subtitle: "I made this on a 12AM power spike, don't judge me.",
+    title: "Primeiro Post",
+    subtitle: "Eu fiz isso em uma hiperatividade à meia noite, não me julga.",
     date: Date.parse("02/02/2021 00:15"),
     JSXcontent:(<div>
         <p>
-            So, here we are. After what felt like months of stalling, low energy and poor motivation, the blog section is finally up! Sort of, anyways.   
+            Então, aqui estamos. Depois do que eu acho que foram meses de procrastinação, energia baixa e pouca motivação, a seção de blog está aberta! Mais ou menos.   
         </p>
         <p>
-            There's probably still a bunch of things to iron out, including issues of styling and me using the damn Bootstrap Card element for every single thing in this goddamn website. But for now, I'm happy with this. While I don't post more interesting stuff, check out this <i>coool</i> picture:
+            Ainda provavelmente tem um monte de coisas pra eu arrumar, incluindo problemas de estilo e eu usar o elemento de Card do Bootstrap pra todas as coisas no site. Mas por agora, eu tô feliz com isso. Enquanto eu não posto coisas mais interessantes, olha essa foto <i>descolaaaada</i>:
         </p>
         <div className="text-center">
                 <img src={drippinCat} style={{width: "300px"}} className="rounded" alt="drippin"/>
-                <p><small>Yes. I did rip off this image structure right off the homepage.</small></p>
+                <p><small>Sim. Eu rasguei essa estrutura de imagem da página inicial.</small></p>
         </div>
         <p>
-            Well, that's all for today. And the forseeable future, for that matter. Smell ya later, chumps!
+           Bem, isso é tudo por hoje. E pro futuro próximo, também. Até mais!
         </p>
     </div>),
     }
