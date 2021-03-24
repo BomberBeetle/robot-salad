@@ -6,6 +6,7 @@ import PortfolioEntry from '../../components/portfolio_entry/PortfolioEntry'
 import './portfolio.css';
 import {ThemeContext} from '../../context/theme-context';
 import {LocaleContext, locales} from '../../context/locale-context';
+import { post_content } from './locale-content/br';
 
 class Portfolio extends Component{
 render(){
@@ -21,13 +22,16 @@ render(){
             currentLocale => {
             var content;
             var entries;
+            var post_content;
             if(currentLocale===locales.us){
                 content = require('./locale-content/us').content;
                 entries = require('./locale-content/us').entries;
+                post_content = require('./locale-content/us').post_content;
             }
             else if(currentLocale===locales.br){
                 content = require('./locale-content/br').content;
                 entries = require('./locale-content/br').entries;
+                post_content = require('./locale-content/br').post_content;
             }
             return(
             <span>
@@ -41,6 +45,7 @@ render(){
                     )
                 })
             }
+            {post_content}
             </span>
             )
             }

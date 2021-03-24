@@ -158,3 +158,5 @@ export const entries = [
 
 export const content = (<span><h1 style={{marginTop: "25px"}}>André Luiz's Portfolio</h1>
 <p>Here you can see some of my <i>finest</i> works! Click on the tags to see other works of mine with the same tag.</p></span>);
+
+export const post_content = (<p>Want to see more? Visit my <a href="">GitHub</a> to see other repositories and trinkets I've worked on!</p>);

@@ -6,15 +6,15 @@ import lil_chatlog from '../../../images/lil_chatlog.png'
 export const entries = [
     {
         "title":"SBLENDERS",
-        "content":"SBLENDERS is the Course Conclusion Project that was developed in 2020 by me and a team of other students. It is a complete system for a ficticious fast food chain that specializes in making user-customized dishes. In the back-end, it sports a SQL Server database, .NET Core API and a management application written in Java. In the front-end, it has a staff-centered application written in Android Studio with Java, a Windows Forms application for in-restaurant user operation and a website written in .ASP NET for delivery.",
+        "content":"SBLENDERS é o Trabalho de Conclusão de Curso desenvolvido em 2020 por mim e um grupo de alunos. É um sistema completo para uma rede de fast-food fictícia que se especializa em pratos customizáveis. No back-end, o sistema usa um banco de dados SQL Server, uma API .NET CORE e uma aplicação de administração escrita em Java. No front-end, tem uma aplicação mobile para funcionários e entregadores feita no Android Studio com Java, uma aplicação para uso de clientes dentro do restaurante em C# e Windows Forms e um site escrito ASP .NET para delivery.",
         "tags": [
             {
-                "text":"Finished",
+                "text":"Finalizado",
                 "bootstrap_variant":"success",
                 style: {},
             },
             {
-                "text":"Team Project",
+                "text":"Projeto em Grupo",
                 "bootstrap_variant":"info",
                 style: {},
             },
@@ -44,10 +44,10 @@ export const entries = [
     },
     {
         "title":"Robot Salad!",
-        "content":"The site you're browsing right now! This is a personal site I made to brush up on my webdev skills, and to have an interactive portfolio. There's also a blog and contact section! It's also avaible in both English and Portuguese (eventually)",
+        "content":"O site que você tá vendo agora! Esse é um site que eu fiz para refrescar minhas habilidades de webdev e para ter um portfólio interativo. Também tem uma seção de blog e contato! Está disponível em Inglês e Português.",
         "tags": [
             {
-                "text":"Active Development",
+                "text":"Em Desenvolvimento",
                 "bootstrap_variant":"success",
                 style: {},
             },
@@ -62,7 +62,7 @@ export const entries = [
                 style: {},
             },
             {
-                "text":"Languages",
+                "text":"Linguas",
                 "bootstrap_variant":"secondary",
                 style: {},
             },
@@ -72,10 +72,10 @@ export const entries = [
     }
     ,{
     "title":"Rescool",
-    "content":"Rescool is the Module Conclusion Project that was made in 2018 for my 1st year at ETESP. It is a website that contains stories on abandoned or otherwise mistreated animals and general information on adoption of animals. All of the pages are available in both Brazilian Portuguese and English, and there is a rudimentary search function and responsivity.",
+    "content":"Rescool é o Trabalho de Conclusão de Módulo que fiz em 2018 na ETESP. É um site que contem histórias sobre animais abandonados ou maltratados, e informações sobre como ajudar e adotar animais. Todas as páginas estão disponíveis em Português e Inglês, e tem responsividade uma função de pesquisa rudimentar.",
     "tags": [
         {
-            "text":"Finished",
+            "text":"Finalizado",
             "bootstrap_variant":"success",
             style: {},
         },
@@ -85,7 +85,7 @@ export const entries = [
             style: {},
         },
         {
-            "text":"Languages",
+            "text":"Linguas",
             "bootstrap_variant":"secondary",
             style: {},
         }
@@ -95,10 +95,10 @@ export const entries = [
     "img": rescool_screen,
 },{
     "title":"Rivals Keyboard Redirector",
-    "content":"This program was developed as a way to play the video game Rivals of Aether with 2 keyboards, which normally isn't possible. It relies on VJoy to translate keyboard input into controller input.",
+    "content":"Este programa foi desenvolvido para possibilitar jogar o jogo Rivals of Aether com dois teclados, o que normalmente não é possível. O programa usa VJoy para transformar entrada do teclado em entrada de controle.",
     "tags": [
         {
-            "text":"Development Frozen",
+            "text":"Desenvolvimento Congelado",
             "bootstrap_variant":"warning",
             style: {},
         },
@@ -124,10 +124,10 @@ export const entries = [
 },
 {
     "title":"MechMaker",
-    "content":"Discord chatbot made for skill-based matchmaking that includes a shop system.",
+    "content":"Chatbot do Discord feito para encontrar partidas baseadas em habilidade, com um sistema de loja.",
     "tags": [
         {
-            "text":"Finished",
+            "text":"Finalizado",
             "bootstrap_variant":"success",
             style: {},
         },
@@ -156,5 +156,7 @@ export const entries = [
     "img": lil_chatlog,  
 }];
 
-export const content = (<span><h1 style={{marginTop: "25px"}}>André Luiz's Portfolio</h1>
-<p>Here you can see some of my <i>finest</i> works! Click on the tags to see other works of mine with the same tag.</p></span>);
+export const content = (<span><h1 style={{marginTop: "25px"}}>Portfólio do André Luiz</h1>
+<p>Aqui você pode ver alguns dos meus <i>mais finos</i> trabalhos! Clique nas categorias para ver trabalhos nessa categoria.</p></span>);
+
+export const post_content = (<p>Quer ver mais? Visite meu <a href="">GitHub</a> para ver outros repositórios e bugigangas que eu já trabalhei com!</p>);

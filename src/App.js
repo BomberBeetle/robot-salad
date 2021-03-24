@@ -9,7 +9,7 @@ constructor(props){
   super(props);
   this.state = {
     style: {
-      theme: themes.light,
+      theme: themes.dark,
       font: fonts.normal,
       size: sizes.normal,
     },
