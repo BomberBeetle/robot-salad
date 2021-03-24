@@ -29,7 +29,7 @@ setTheme = (theme) => {
   this.setState(newState);
 }
 
-setLocale (locale){
+setLocale = (locale) => {
   let newState = this.state;
   newState.locale = locale;
   this.setState(newState);
@@ -40,7 +40,7 @@ render() {
     <div style={{height:"100%",...this.state.style.theme.background}}>
     <LocaleContext.Provider value={this.state.locale}>
     <ThemeContext.Provider value={this.state.style}>
-    <Navigator setFont={this.setFont} setTheme={this.setTheme}/>
+    <Navigator setFont={this.setFont} setTheme={this.setTheme} setLocale={this.setLocale}/>
     <Routes />
     </ThemeContext.Provider>
     </LocaleContext.Provider>

@@ -12,6 +12,7 @@ class Navigator extends Component{
 
     render(){
         let latestFont = this.context.font;
+        let latestTheme = this.context.theme;
         return(
         <LocaleContext.Consumer>
         {
@@ -35,19 +36,25 @@ class Navigator extends Component{
                     />
                 Robot Salad!</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="#/">{strings.home}</Nav.Link>
                         <Nav.Link href="#/portfolio">{strings.portfolio}</Nav.Link>
                         <Nav.Link href="#/blog">{strings.blog}</Nav.Link>
                         <Nav.Link href="#/contact">{strings.contact}</Nav.Link>
-                        <Nav.Link as="span" onClick={this.propagationStopper}>{strings.darkmode}<Switch size="small" onClick={(e)=>this.themeSwitchHandler(e, this.props.setTheme)}/></Nav.Link>
+                        <Nav.Link as="span" onClick={this.propagationStopper}>{strings.darkmode}<Switch size="small" onClick={(e)=>this.themeSwitchHandler(e, this.props.setTheme)} checked={latestTheme===themes.dark}/></Nav.Link>
                         
                         <NavDropdown rootCloseEvent="none" title={strings.accessibility} id="basic-nav-dropdown">
                         <NavDropdown.Item as="div" onClick={this.propagationStopper}> <Switch color="primary"checked={latestFont===fonts.dyslexic} onChange={(e)=>{this.dyslexiaSwitchHandler(e, this.props.setFont)}}></Switch>{strings.dyslfont}</NavDropdown.Item>
                         <NavDropdown.Item as="div" onClick={this.propagationStopper}> <Switch color="primary"></Switch>{strings.bigfont}</NavDropdown.Item>
     
                         </NavDropdown>
+                        <NavDropdown rootCloseEvent="none" title={strings.locale} id="basic-nav-dropdown">
+                        <NavDropdown.Item as="div" onClick={()=>{this.props.setLocale(locales.br)}}>Português</NavDropdown.Item>
+                        <NavDropdown.Item as="div" onClick={()=>{this.props.setLocale(locales.us)}}>English</NavDropdown.Item>
+    
+                </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>)

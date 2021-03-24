@@ -7,6 +7,7 @@ const strings = {
     darkmode: "Dark Mode",
     bigfont: "Larger Font",
     dyslfont: "Dyslexia Font",
+    locale: "Language"
 }
 
 export default strings;
